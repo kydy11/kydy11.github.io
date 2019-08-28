@@ -1,3 +1,31 @@
 h1{
-    color:#fa84;
+    color:rgba(161, 105, 136, 0.582);
 }
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background: #214A3C;
+  }
+
+  li {
+    margin: 24px 0;
+  }
+  
+  li a {
+    padding: 24px;
+    text-decoration: none;
+    color: #2B193D;
+  }
+
+  #first{
+      background: #51B796;
+  }
+  #second{
+      background: #59C9A5;
+  }
+  #third{
+      background: #77D2B5;
+  }
