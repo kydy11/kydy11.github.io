@@ -1,0 +1,68 @@
+h1{
+    color:rgba(153, 81, 120, 0.815);
+    text-align: center;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    background: #214A3C;
+  }
+
+  li {
+    margin: 24px 0;
+  }
+  
+  li a {
+    padding: 24px;
+    text-decoration: none;
+    color: #2B193D;
+  }
+
+  #first{
+      background: #51B796;
+  }
+  #second{
+      background: #59C9A5;
+  }
+  #third{
+      background: #77D2B5;
+  }
+
+  #halfButton{
+    height: 100%;
+    margin: 0%;
+    margin-block-start: 0%;
+    margin-block-end: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding: 0%;
+    padding-top: 0%;
+  }
+  #leftButton{
+    background:#5c3c94;
+    width: 50%;
+    height: 100vh;
+    text-align: center;
+    padding-top: 20%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+  #rightButton{
+    background:#734bb8;
+    width: 50%;
+    height: 100vh;
+    text-align: center;
+    padding-top: 20%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
