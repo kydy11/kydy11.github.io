@@ -8,25 +8,23 @@ html, body {
   margin: 0;
 }
 
-ul {
-    list-style: none;
+nav{
+  list-style: none;
     display: flex;
     flex-direction: row;
     width: 100%;
     padding: 0%;
     margin: 0%;
     background: #214A3C;
-  }
+}
 
-  li {
-    margin: 24px 0;
-  }
-  
-  li a {
-    padding: 24px;
-    text-decoration: none;
-    color: #2B193D;
-  }
+nav a{
+  padding: 24px;
+  text-decoration: none;
+  color:#2B193D;
+}
+
+
 
   #first{
       background: #51B796;
@@ -48,21 +46,30 @@ ul {
     padding: 0%;
     padding-top: 0%;
   }
-  #leftButton{
-    background:#5c3c94;
+  .sideButton{
     width: 50%;
     height: 100vh;
     text-align: center;
-    padding-top: 20%;
+    padding-top: 0%;
     margin-top: 0%;
     margin-bottom: 0%;
   }
-  #rightButton{
-    background:#734bb8;
-    width: 50%;
+  #leftButton{
+    background:#5c3c94;
+    width: 100vw;
     height: 100vh;
     text-align: center;
-    padding-top: 20%;
+    padding-top: 100%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+
+  }
+  #rightButton{
+    background:#734bb8;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    padding-top: 100%;
     margin-top: 0%;
     margin-bottom: 0%;
   }
